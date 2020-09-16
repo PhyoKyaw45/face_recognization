@@ -19,7 +19,7 @@ def detect_face(img):
 
     # if there is no face , return Nothing
     if len(faces) == 0:
-        print("lose")
+       
         return None, None
 
     # get face area
